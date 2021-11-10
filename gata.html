@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 { font-size: 40px;}
+h2 {font-size: 25px;}
+p {font-size: 20px;}
+img { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+#p1 { text-align: center;
+  color: purple;
+  font-family: "Lucida Handwriting";
+  }
+  
+  #p2 {color:red;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {background-color: pink;}
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+#p12 {color:red;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {background-color: pink;}
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+#p121 {color:red;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {background-color: pink;}
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+#p211 {color:red;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {background-color: pink;}
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+#d1 {color:red;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {background-color: pink;}
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+table {
+  width: 50%;
+}
+li {border-style: outset;}
+#rcorners { border-radius: 50px;
+height="300"
+}
+ 
+</style>
+</head>
+<body>
+
+
+<h1 id="p1">Gabriela Petraș</h1>
+
+
+<button onclick="myFunction()">Alta viata</button>
+
+
+<script>
+function myFunction() {
+  document.getElementById("p1").innerHTML = "Dna Inginer Petraș Gabriela";
+  document.getElementById("d1").innerHTML = "Reazlizari din perioada facultatii";
+  document.getElementById("d2").innerHTML = "Terminarea unui internship";
+  document.getElementById("d3").innerHTML = "Gasirea unui job";
+  document.getElementById("d4").innerHTML = "Promovarea tuturor examenelor";
+  document.getElementById("d5").innerHTML = "Atingerea potentialului maxim";
+  document.getElementById("rcorners").src="eu.jpg";
+  document.body.style.backgroundColor="grey";
+  document.getElementById("p2").style.color="white";
+  document.getElementById("p12").style.color="white";
+ document.getElementById("p121").style.color="white";
+ document.getElementById("p211").style.color="white";
+   document.getElementById("d1").style.color="white";
+    document.getElementById("p1").style.color="lightblue";
+	 document.getElementById("p1").style.fontSize="50px";
+	  document.getElementById("rcorners").style.opacity="70%";
+	  document.getElementById("rcorners").style.borders="4.5px";
+	  
+document.getElementById("aa").onmouseover = function() {mouseOver()};
+document.getElementById("aa").onmouseout = function() {mouseOut()};
+
+
+var x=2021;
+var y=2002;
+function mouseOver() {
+  document.getElementById("aa").innerHTML=x-y;;
+}
+
+function mouseOut() {
+  document.getElementById("aa").innerHTML=y;
+}
+
+}
+</script>
+
+
+<p id="aa">2002</p>
+
+<h2 id="p2">Email:</h2>
+<p>gabriela.petras@yahoo.com</p>
+<h2 id="p12">Poza:</h2>
+<img id="rcorners" src="gata.jpg" alt="Gabriela"  width="230" >
+<h2 id="p121">Citat:</h2>
+<p>“Scopul educatiei este sa transforme oglinzile in ferestre. “(Sydney J. Harris) </p>
+<h2 id="p211">Tabel</h2>
+<table>
+  <tr>
+    <th>Disciplina</th>
+    <th>An</th>
+    <th>Descriere</th>
+  </tr>
+  <tr>
+    <td>Componente si circuite pasive</td>
+    <td>An I</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Fisa disciplinei</a></td>
+  </tr>
+  <tr>
+    <td>Algebra lineara si geometrie analita diferentiala</td>
+    <td>An I</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/02.pdf">Fisa disciplinei</a></td>
+ </tr>
+ <tr>
+    <td>Fizica</td>
+    <td>An I</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/03.pdf">Fisa disciplinei</a></td>
+  </tr>
+ <tr>
+    <td>Grafica asistata de calculator</td>
+    <td>An II</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/15.pdf">Fisa disciplinei</a></td>
+  </tr>
+ 
+</table>
+<h2 id="d1">Hobby-uri:</h2>
+  <ul>
+  <li id="d2">Calatorii</li>
+  <li id="d3">Plimbari</li>
+  <li id="d4">Filme</li>
+  <li id="d5">Citit</li>
+</ul>
+</body>
+</html>
